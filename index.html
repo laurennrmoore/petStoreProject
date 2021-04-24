@@ -9,13 +9,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    
+
 
 
 <!--Contact Us Page Scripting Start (Bootstrap & Google Maps API)-->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/25/7/common.js"></script>
+<!-- <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/25/7/common.js"></script>
 <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/25/7/map.js"></script>
 <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/25/7/util.js"></script>
 <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/25/7/marker.js"></script>
@@ -23,20 +25,10 @@
 <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/25/7/stats.js"></script>
 <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/25/7/controls.js"></script>
 <link href="https://www.solodev.com/assets/selectize/css/normalize.css">
-<link href="https://www.solodev.com/assets/selectize/css/selectize.default.css">
-<script src="https://www.solodev.com/assets/selectize/js/jquery.js"></script>
+<link href="https://www.solodev.com/assets/selectize/css/selectize.default.css"> <script src="https://www.solodev.com/assets/selectize/js/jquery.js"></script> 
 <script src="https://www.solodev.com/assets/selectize/js/selectize.js"></script>
-<script src="https://www.solodev.com/assets/selectize/js/index.js"></script>
+<script src="https://www.solodev.com/assets/selectize/js/index.js"></script> -->
 
-
-<!--Contact Us Page Script Ending (Bootstrap & Google Maps)--> 
-
-
-<!--Carousel Code Begin-->
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -49,8 +41,6 @@
       height: 100%;
     }
   </style>
-</head>
-
 </head>
 <!--Carousel Code End-->
 
@@ -118,42 +108,37 @@
 
 
     <h1><u>Welcome To The Pet Shop!</u></h1>
-
-    
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <div id="navbar"></div>
 
 
 <br>
 <strong><u>Home</u></strong>
-
-<p>Welcome to The Healing Farm! A service animal community partnering with Paws for a Cause and the American Kennel Club to provide certified animals to the public.
+<p>Welcome to The Healing Farm! A service animal community partnering with Paws for a Cause, Americans with disabilities, American Kennel Club and Love on a Leash to provide certified animals to the public, and for handler-present visits to resident facilities.We also provide merchandise to equip you and your furry friends with the products to meet their needs.</p>
   
-  enthusiasts who love all things about pets and animals. We are always available online, and our associates are available daily to address your questions and pet care needs.</p>
-
-
-
 
 <!--Contact Page Code-->
+<div class="container">
+	<h3>Contact Form</h3>
+	<form action="#" name="contact_form">
+		<label for="first_name">First Name</label>
+		<input name="first_name" type="text" required placeholder="John"/>
+		<br>
+		<label for="last_name">Last Name</label>
+		<input name="last_name" type="text" required placeholder="Doe"/>
+		<br>
+		<label for="email">Email</label>
+		<input name="email" type="email" required placeholder="you@domain.com"/>
+		<br>
+		<label for="message">Message</label><br>
+		<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+		<div class="center">
+			<input type="submit" value="Submit">
+		</div>
+	</form>	
+</div>
 
 
+<!--Contact Page code above-->
 
 
 
@@ -233,5 +218,16 @@ Follow Us On Social Media :
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+
+<script>
+
+  $(document).ready(function(){
+    $("#navbar").load("Navbar.html")
+  })
+
+</script>
+
+
 </body>
 </html>
